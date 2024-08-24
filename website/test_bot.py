@@ -12,7 +12,9 @@ from langchain_community.document_loaders import TextLoader
 
 
 
-openai.api_key  = os.environ['OPENAI_API_KEY']
+from dotenv import load_dotenv
+_ = load_dotenv()
+
 
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 
