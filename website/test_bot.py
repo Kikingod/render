@@ -12,7 +12,7 @@ from langchain_community.document_loaders import TextLoader
 
 
 
-openai.api_key  = os.environ['OPENAI_API_KEY']
+openai.api_key  = os.environ['sk-proj-PZKS3gHGe4eNVANn6YP7T3BlbkFJmYEYa6Qopm3DEq0dZSNK']
 
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 
